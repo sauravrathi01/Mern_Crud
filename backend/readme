@@ -1,0 +1,37 @@
+Professional Experience
+Blue Pearl Health Tech Pvt Ltd
+
+Frontend Develoment Intern
+02/2024 – 05/2024
+ | 
+Pune, India
+AffableBPM :
+
+•Designed and implemented crucial pages such as User Profile, Activity, and Subscription, contributing to the overall functionality and usability of the application.
+•Designed and executed key features, including a "Schedule a Demo" page, providing a seamless user experience for prospective clients.
+•Utilized Playwright, an advanced automation tool, to automate end-to-end testing, improving test coverage and efficiency.
+Nectere Solutions
+
+Frontend Developer
+06/2022 – 05/2023
+ | 
+Pune, India
+Village Survey :
+
+•Developed a web application for conducting comprehensive surveys in rural areas, aimed at gathering crucial data for NGO initiatives.
+•Created and maintained highly responsive user interfaces using HTML, CSS, and React, ensuring seamless user experiences across devices.
+•Enforced efficient and reliable HTTP requests, facilitating smooth data fetching and integration with backend services.
+Projects
+FarmTools Lending platform:
+
+•The FarmTools Lending Platform is a web application enabling farmers to lend and borrow farm equipment, promoting resource sharing and cost efficiency.
+•It features user profiles, equipment listings, booking and payment systems, and a review system to ensure trust and efficiency in resource sharing.
+User Management CRUD Application :
+
+•Developed a full-stack web application using the MERN (MongoDB, Express, React, Node.js) stack to manage user data with RESTful APIs for CRUD operations. 
+•The application allows for the creation, reading, updating, and deletion of users, with data displayed in a responsive table format.
+•Testing: Used Postman to test the RESTful APIs during development.
+To-Do List Application with Local Storage
+
+•Enhanced a to-do list application using React.js that allows users to create, view, and delete tasks, with persistent data stored in the browser's local storage.
+• Users can add new tasks and remove them easily from the list. This ensures that tasks remain available even after refreshing or closing the browser tab, enhancing user experience.
