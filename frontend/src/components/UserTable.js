@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const UserTable = () => {
+  const BASE_URL = "https://mern-crud2-1.onrender.com";
   const [users, setUsers] = useState([]);
   const [newUser, setNewUser] = useState({
     name: "",
@@ -18,7 +19,7 @@ const UserTable = () => {
   // Fetch all users from the backend
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/readalluser");
+      const response = await axios.get(`${BASE_URL}/readalluser`);
       setUsers(response.data);
     } catch (error) {
       console.error("Error fetching users:", error);
@@ -34,7 +35,7 @@ const UserTable = () => {
   // Create a new user
   const createUser = async () => {
     try {
-      await axios.post("http://localhost:5000/createuser", newUser);
+      await axios.post(`${BASE_URL}/createuser`, newUser);
       fetchUsers(); // Refresh the users list
     } catch (error) {
       console.error("Error creating user:", error);
@@ -44,7 +45,7 @@ const UserTable = () => {
   // Delete a user by ID
   const deleteUser = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/delete/${id}`);
+      await axios.delete(`${BASE_URL}/delete/${id}`);
       fetchUsers(); // Refresh the users list
     } catch (error) {
       console.error("Error deleting user:", error);
@@ -116,14 +117,6 @@ const UserTable = () => {
         </div>
         </div>
 
-
-      
-
-
-       
-           
-    
-        
       </form>
 
      <div className="row justify-content-center mt-5">
