@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const UserTable = () => {
-  const BASE_URL = "https://mern-crud2-1.onrender.com";
+  const BASE_URL = "https://mern-crud-2t8h.onrender.com";
   const [users, setUsers] = useState([]);
   const [newUser, setNewUser] = useState({
     name: "",
